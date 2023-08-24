@@ -5,6 +5,7 @@ class MyList
   def initialize(*list)
     @list = list.to_a
   end
+
   def each
     yield(@list)
   end
